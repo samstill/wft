@@ -1,0 +1,32 @@
+ul {
+    float: right
+}
+.navbrand {
+    text-decoration: none;
+    color: green;
+}
+.navbrand h2 {
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.nav-item {
+    margin-right : 50px; 
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+     
+}
+.navbar .container-fluid {
+    background-color: black;
+    top: 0;
+    opacity: 0.6;
+}
+
+.navbar .container-fluid .navbrand .h2{
+    color: white;
+    opacity: 1;
+}
