@@ -8,6 +8,8 @@ import Harshada from './pages/Harshada';
 import RutujaA from './pages/RutujaA';
 import Rutuja1 from './pages/Rutuja1';
 import Nikita from './pages/Nikita';
+import Header from './pages/components/Header';
+import Footer from './pages/components/Footer';
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,9 @@ function App() {
           <Route component={NotFound} status={404} />
         </Switch>
       </Router>
+      {/* header */}
+      <Header />
+      <Footer />
     </div>
   );
 }
