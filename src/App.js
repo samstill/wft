@@ -10,6 +10,7 @@ import Rutuja1 from './pages/Rutuja1';
 import Nikita from './pages/Nikita';
 import Header from './pages/components/Header';
 import Footer from './pages/components/Footer';
+import Gallery from './pages/components/Gallery';
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/rutuja" component={RutujaA} />
           <Route exact path="/rutuja-shinde" component={Rutuja1} />
           <Route exact path="/nikita" component={Nikita} />
+          <Route exact path="/gallery" component={Gallery} />
           <Route component={NotFound} status={404} />
         </Switch>
       </Router>

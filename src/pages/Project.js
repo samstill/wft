@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 export default function Project () {
 
     useEffect(() => {
-        Aos.init({ duration: 2000 });
+        Aos.init({ duration: 1000 });
     },[]);
     
         return (
@@ -58,7 +58,8 @@ export default function Project () {
                     </Row>
                 </Container>
 {/* Discription section */}
-                <div data-aos="slide-up" className="container-fluid" id="discription">
+                <div data-aos="slide-up" style={{backgroundColor:"teal"}}>
+                <div  className="container-fluid" id="discription">
                     {/* firebase react */}
                     <div className="row" style={{backgroundColor:"rgb(0, 128, 128)", overflow: "hidden"}}>
                         <div className="col p-5" style={{backgroundColor:"rgb(0, 128, 128)"}}>
@@ -103,7 +104,7 @@ export default function Project () {
                                 </div> 
                                 {/* <div className="card-title bg-transparent"><h1 className="h5 text-center bg-transparent text-muted">(Incharge)</h1></div> */}
                                 <div className="d-flex align-items-center justify-content-center bg-transparent">
-                                    <Button href="#section1"className="w-50 m-4">Know more</Button>  
+                                    <Button href="/"className="w-50 m-4">Know more</Button>  
                                 </div> 
                             </div>  
                         </Col>
@@ -129,7 +130,7 @@ export default function Project () {
                     </Row>
                 </Container>
                 </div>
-            
+                </div>
             </div>
         )
     }
