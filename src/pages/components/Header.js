@@ -21,7 +21,7 @@ export default class Header extends Component {
                                 </li>
                                 <li className="nav-item bg-transparent">
                                     {/* <Link to="project-info"className="btn btn-primary">Project Info</Link> */}
-                                    <a className="btn btn-primary" href="project-info">Project Info</a>
+                                    <a className="btn btn-primary" href="project-info">Login</a>
                                 </li>
                             </ul>
                         </div>
